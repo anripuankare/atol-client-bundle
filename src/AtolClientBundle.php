@@ -11,7 +11,7 @@ final class AtolClientBundle extends Bundle
     public const API_CLIENT_VERSION_4 = 4;
     public const API_CLIENT_VERSION_5 = 5;
 
-    public function getContainerExtension()
+    public function getContainerExtension(): AtolClientExtension
     {
         return new AtolClientExtension();
     }
