@@ -12,7 +12,7 @@ Usage is as simple as
 
 1. Install library
 	```bash
-	composer require lamoda/atol-client-bundle
+	composer require anripuankare/atol-client-bundle
 	```
 
 2. Register bundle and required JMS Serializer Bundle 
